@@ -35,7 +35,7 @@ if st.button('Scan Stocks'):
             st.caption("Trade Date: " + data['date'])
             st.table(df['Stock Name'])
 
-            st.write("To understand the rules of the strategy, watch the complete course [here](https://www.youtube.com/watch?v=ezlG2DyiXM0&list=PLhKwz7hYMTDVUXV-hkJ2wnwnQECzn-egm&index=9)")
+            st.write("To understand the rules of the strategy, watch the complete course [here](https://learnapp.com/courses/price-action-strategy/topics/trailer)")
         
         elif strategy_name == "Gapup Strategy":
 
@@ -51,7 +51,7 @@ if st.button('Scan Stocks'):
             st.caption("Trade Date: " + data['data'][0]['trade_date'])
             st.table(df['Stock Name'])
         
-            st.write("To understand the rules of the strategy, watch the complete course [here](https://learnapp.com/courses/price-action-strategy/topics/trailer)")
+            #st.write("To understand the rules of the strategy, watch the complete course [here](https://learnapp.com/courses/price-action-strategy/topics/trailer)")
 
         elif strategy_name == "Mean Reversion Strategy":
 
